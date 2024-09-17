@@ -2,7 +2,7 @@
 This is an posts app,
 Here you be able to see you own post and comments to each post,
 
-## Libary That Been Usedx2
+## Libary That Been Used
 - **Zustand**: For global state management.
 - **SCSS**: For cleaner and more maintainable styles.
 - **Axios**: For REST Api request.
@@ -37,14 +37,17 @@ It correctly bundles React in production mode and optimizes the build for the be
 
 
 ## Issues
-- This app was created by "create-react-app" becuase of the requiments of the app, 
-There are more modern ways to start the project by "Vite" or "Next.js".
+- This app was created by "create-react-app" becuase of the requiments of the app,\
+  There are more modern ways to start the project by "Vite" or "Next.js".
+- There is no reallty passwords for JSONPlaceholder accounts, so mock passwords been made for each account
 
 ## Accounts for testing
 **Exmaple accounts, this works for all the accounts**:
 -  email: Sincere@april.biz\
    name: Leanne Graham\
+   pass: leanne123
    
 - Shanna@melissa.tv\
   name: Ervin Howell\
+  pass: ervin123
 
