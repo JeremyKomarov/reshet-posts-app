@@ -38,4 +38,16 @@ It correctly bundles React in production mode and optimizes the build for the be
 
 ## Issues
 - This app was created by "create-react-app" becuase of the requiments of the app, 
-There are more modern ways to start the project by "Vite" or "Next.js". 
+There are more modern ways to start the project by "Vite" or "Next.js".
+
+## Accounts for testing
+**Exmaple accounts, this works for all the accounts**:
+-  email: Sincere@april.biz
+   name: Leanne Graham
+   password: leanne123
+   
+- Shanna@melissa.tv
+  name: Ervin Howell
+  password: ervin123
+
+
