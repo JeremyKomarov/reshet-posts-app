@@ -44,10 +44,7 @@ There are more modern ways to start the project by "Vite" or "Next.js".
 **Exmaple accounts, this works for all the accounts**:
 -  email: Sincere@april.biz\
    name: Leanne Graham\
-   password: leanne123
    
 - Shanna@melissa.tv\
   name: Ervin Howell\
-  password: ervin123
-
 
