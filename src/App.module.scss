@@ -1,0 +1,17 @@
+.appContainer {
+  font-family: Arial, sans-serif;
+  color: #212529;
+  background-color: #e9ecef;
+  min-height: 100vh;
+  padding: 1rem;
+
+  h1 {
+    text-align: center;
+    margin-bottom: 2rem;
+    color: #343a40;
+  }
+
+  @media (min-width: 768px) {
+    padding: 2rem;
+  }
+}

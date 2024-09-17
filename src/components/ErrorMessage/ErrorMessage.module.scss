@@ -1,0 +1,7 @@
+@import '../../styles/variables';
+
+.errorMessage {
+  color: $error-color;
+  font-weight: bold;
+  margin-top: 10px;
+}

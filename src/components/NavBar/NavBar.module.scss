@@ -1,0 +1,43 @@
+@import '../../styles/variables';
+
+.navBar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: $background-color-dark;
+  padding: 0.5rem 1rem;
+
+  .leftSide {
+    display: flex;
+
+    .tab {
+      background: none;
+      color: $text-color-white;
+      border: none;
+      padding: 0.5rem 1rem;
+      cursor: pointer;
+      font-size: 1rem;
+
+      &.active {
+        border-bottom: 2px solid $button-color-blue;
+      }
+
+      &:hover {
+        background-color: rgba(255, 255, 255, 0.1);
+      }
+    }
+  }
+
+  .logoutButton {
+    background-color: $button-logout-color-red;
+    color: $text-color-white;
+    border: none;
+    padding: 0.5rem 1rem;
+    cursor: pointer;
+    border-radius: 4px;
+
+    &:hover {
+      background-color: $button-logout-hover-color-red;
+    }
+  }
+}

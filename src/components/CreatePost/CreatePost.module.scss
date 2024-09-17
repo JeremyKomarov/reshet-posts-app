@@ -1,0 +1,51 @@
+@import '../../styles/variables';
+
+.createPostContainer {
+  margin: 2rem 0;
+
+  .openButton {
+    background-color: $button-color-blue;
+    color: $text-color-white;
+    padding: 0.75rem 1.5rem;
+    border: none;
+    cursor: pointer;
+    border-radius: 4px;
+
+    &:hover {
+      background-color: $button-hover-color-blue;
+    }
+  }
+
+  .createPostForm {
+    display: flex;
+    flex-direction: column;
+    margin-top: 1rem;
+
+    .input,
+    .textarea {
+      margin-bottom: 1rem;
+      padding: 0.75rem;
+      border: 1px solid $border-color-gray;
+      border-radius: 4px;
+      font-size: 1rem;
+    }
+
+    .textarea {
+      min-height: 100px;
+    }
+
+    .button {
+      background-color: $button-save-color-green;
+      color: $text-color-white;
+      padding: 0.75rem;
+      border: none;
+      cursor: pointer;
+      border-radius: 4px;
+
+      &:disabled {
+        background-color: $disabled-color;
+      }
+    }
+
+  }
+}

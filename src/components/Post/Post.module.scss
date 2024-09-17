@@ -1,0 +1,66 @@
+@import '../../styles/variables';
+
+.postContainer {
+  padding: 1rem;
+  border: 1px solid $border-color-gray;
+  border-radius: 4px;
+
+  h3 {
+    margin-top: 0;
+  }
+
+  p {
+    margin: 0.5rem 0;
+  }
+
+  input,
+  textarea {
+    width: 100%;
+    padding: 0.75rem;
+    margin-bottom: 1rem;
+    border: 1px solid $border-color-gray;
+    border-radius: 4px;
+    font-size: 1rem;
+  }
+
+  textarea {
+    min-height: 100px;
+  }
+
+  .saveButton {
+    background-color: $button-save-color-green;
+    color: $text-color-white;
+    padding: 0.5rem 1rem;
+    border: none;
+    cursor: pointer;
+    border-radius: 4px;
+
+    &:disabled {
+      background-color: $disabled-color;
+      cursor: not-allowed;
+    }
+
+    &:hover:not(:disabled) {
+      background-color: $button-save-hover-color-green;
+    }
+  }
+
+  .buttons {
+    display: flex;
+    gap: 1rem;
+    margin-top: 1rem;
+
+    button {
+      background-color: $button-color-blue;
+      color: $text-color-white;
+      border: none;
+      padding: 0.5rem 1rem;
+      cursor: pointer;
+      border-radius: 4px;
+
+      &:hover {
+        background-color: $button-hover-color-blue;
+      }
+    }
+  }
+}

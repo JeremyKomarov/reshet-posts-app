@@ -1,0 +1,15 @@
+@import '../../styles/variables';
+
+.userProfile {
+  padding: 1rem;
+  background-color: $background-color-white;
+  border-radius: 8px;
+
+  h3 {
+    margin-top: 0;
+  }
+
+  p {
+    margin: 0.5rem 0;
+  }
+}

@@ -1,0 +1,23 @@
+@import '../../styles/variables';
+
+.commentsContainer {
+  padding: 1rem;
+  background-color: $background-color-white;
+
+  p {
+    margin: 0.5rem 0;
+  }
+
+  .comment {
+    border-bottom: 1px solid $border-color-gray;
+    padding: 1rem 0;
+
+    h4 {
+      margin: 0 0 0.5rem;
+    }
+
+    p {
+      margin: 0.25rem 0;
+    }
+  }
+}
